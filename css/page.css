@@ -1,0 +1,61 @@
+body{
+	background: url(../resource/image/head_bg.jpg);
+}
+img { vertical-align:middle; }
+a { text-decoration:none; }
+#container{
+	height: 100%;
+}
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	margin-top: 40px;
+}
+.nav_menu { height:65px}
+.nav_menu > li { float:left; width:200px; padding:0 9px 4px 6px ;border-right:solid 1px #000000; text-align: center;}
+/*.nav_menu > li:first-child { }*/
+.nav_menu > li > a { display:block; border-radius:5px; padding-left:23px; height:61px; line-height:61px; color:#345d67; font-weight:bold; }
+.nav_menu > li > a:hover, .nav_menu > li.crt > a { color:#fff; background:url(../resource/image/caption-title.png) repeat; }
+.poem{
+	margin-top: 40px;
+	font-size: 40px;
+	text-align:center;
+
+}
+.video{
+	text-align: center;
+	margin-top: 20px;
+}
+.lyric{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.footer{
+	/*position:absolute; */
+	/*bottom:0; */
+	/*left: 50%;*/
+	text-align: center;
+	font-size: 15px;
+	font-family: Monaco;
+
+	height:50px;  
+    width:100%;  
+    clear:both;  
+    margin-top:-50px;  
+ 
+}
+.naviSlider{
+	position: absolute;
+	border-bottom: 6px solid #184752;
+}
+.naviSlider img {
+	vertical-align: middle;
+	width: 100%;
+}
+.naviSlider li{
+	display: none;
+}
+
